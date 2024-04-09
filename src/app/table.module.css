@@ -1,0 +1,24 @@
+
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the table */
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Subtle border for rows */
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors */
+  }
+  
+  .table th {
+    background-color: #f2f2f2; /* Light background color for header */
+  }
+  
